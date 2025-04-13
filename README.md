@@ -1,50 +1,18 @@
-# Protocolo de Transferência de Arquivos Personalizado – FTCP
-
-Este repositório contém a implementação do projeto **FTCP (File Transfer Custom Protocol)**, um sistema cliente-servidor para transferência de arquivos utilizando os protocolos TCP e UDP de forma customizada, conforme especificado nas instruções.
-
-## Equipe
-
-*   **Integrante 1:** Ana Beatriz Cavalcanti Marinho.
-*   **Integrante 2:** Eurico Gabriel Vasconcelos Pereira.
-*   **Integrante 3:** Maria Clara Silva Maia.
-*   **Integrante 4:** Renaldo dos Santos Franca.
-
-## Visão Geral do Projeto
-
-O objetivo principal é desenvolver um cliente e um servidor que se comunicam através de um protocolo próprio (FTCP). A negociação inicial ocorre via UDP, onde o cliente requisita um arquivo (`a.txt` ou `b.txt`) e especifica o protocolo de transferência (obrigatoriamente TCP nesta versão). O servidor responde com a porta TCP designada para a transferência. Em seguida, o cliente estabelece uma conexão TCP nessa porta, solicita o arquivo, o recebe e confirma o recebimento antes de encerrar a conexão.
-
-## Entregáveis
-
-A entrega final do projeto consiste nos itens detalhados na tabela abaixo. 
-
-| Item # | Descrição                                      | Forma de Entrega                  |
-| :----- | :--------------------------------------------- | :-------------------------------- |
-| 1      | **Código Fonte** (Cliente e Servidor)          | Repositório Git (este)            |
-| 2      | **Arquivos de Teste** (`a.txt` e `b.txt`)      | Repositório Git (este)            |
-| 3      | **Arquivo de Configuração** (`config.ini`)     | Repositório Git (este)            |
-| 4      | **Arquivo de Captura de Tráfego** (`.pcapng`) | Repositório Git (este)            |
-| 5      | **Relatório de Análise** (PDF ou Markdown)   | Google Classroom (1 por equipe)   |
+# 💫 About Me:
+Hello, I'm Eurico Gabriel 👋  <br>I'm a Computer Science student at UFCG, currently halfway through my degree.  <br>🌱 I'm passionate about backend development.  <br>📫 You can reach me at: euricogabriel149@gmail.com<br>
 
 
-## Documentação Importante
+## 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/eurico_gabriel149) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/eurico-gabriel-vasconcelos-pereira-352139247) 
 
-Consulte os seguintes arquivos neste repositório para obter detalhes completos sobre cada parte do projeto:
+# 💻 Tech Stack:
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Haskell](https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=Eurico149&theme=catppuccin_mocha&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=Eurico149&theme=catppuccin_mocha&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Eurico149&theme=catppuccin_mocha&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-*   **[📄 Especificação do Protocolo FTCP](./protocolo.md):** Descreve em detalhes as etapas de negociação (UDP) e transferência (TCP), os formatos das mensagens e o fluxo de comunicação esperado entre cliente e servidor.
-*   **[🦈 Tutorial de Análise com Wireshark](./wireshark_tutorial.md):** Contém um guia passo a passo sobre como usar o Wireshark para analisar o arquivo de captura (`.pcap`), incluindo exemplos com DHCP/DNS e instruções específicas para analisar o tráfego do seu protocolo FTCP.
-*   **[📝 Instruções para o Relatório](./relatorio.md):** Apresenta a estrutura e o conteúdo esperado para o relatório final, focando na análise do protocolo e do tráfego de rede capturado.
-*   **[🐍 Exemplo de servidor/cliente (Python)](./echo_server.py):** Um código de exemplo em Python demonstrando um servidor e cliente "echo" que opera simultaneamente em TCP e UDP. 
+---
+[![](https://visitcount.itsvg.in/api?id=Eurico149&icon=0&color=0)](https://visitcount.itsvg.in)
 
-## Como Executar (Exemplo Básico)
-
-1.  **Configuração:** Certifique-se de que o arquivo `config.ini` está presente na mesma pasta dos scripts e configurado corretamente com as portas desejadas e os caminhos para os arquivos `a.txt` e `b.txt`.
-2.  **Iniciar o Servidor:**
-    
-    ```bash
-    python servidor_ftcp.py
-    ```
-3.  **Executar o Cliente (em outro terminal):**
-    ```bash
-    python cliente_ftcp.py a.txt
-    ```
-
+<!-- Proudl
